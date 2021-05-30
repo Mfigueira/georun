@@ -2,10 +2,12 @@
 
 ## What is this?
 
-This is a project I made to apply OOP and geolocation in modern JS (ES6+).
+It's a Web App for keeping track of cardio workouts in a map (only Front End with persistence in local storage).
 
-It was based on the lectures of "The Complete JavaScript Course 2021: From Zero to Expert!" by Jonas Schmedtmann
+Made with modern JS (ES6+) Object Oriented Programming (OOP), the Geolocation API and Leaflet library.
 
-## Is it hosted somewhere?
+Based on the lectures of "The Complete JavaScript Course 2021: From Zero to Expert!" by Jonas Schmedtmann.
 
-Sure, right [here](https://mfigueira.github.io/mapty/).
+## Link to website?
+
+Right [here](https://mfigueira.github.io/mapty/)!
