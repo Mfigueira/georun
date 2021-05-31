@@ -1,4 +1,4 @@
-# Mapty
+# georun
 
 ## What is this?
 
@@ -10,4 +10,4 @@ Based on the lectures of "The Complete JavaScript Course 2021: From Zero to Expe
 
 ## Link to website?
 
-Right [here](https://mfigueira.github.io/mapty/)!
+Right [here](https://mfigueira.github.io/georun/)!

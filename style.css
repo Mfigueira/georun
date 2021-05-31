@@ -27,10 +27,8 @@ body {
   line-height: 1.6;
   height: 100vh;
   overscroll-behavior-y: none;
-
   background-color: #fff;
   padding: 2.5rem;
-
   display: flex;
 }
 
@@ -44,15 +42,20 @@ a:visited {
 .sidebar {
   flex-basis: 50rem;
   background-color: var(--color-dark--1);
-  padding: 3rem 5rem 4rem 5rem;
+  padding: 4%;
   display: flex;
   flex-direction: column;
 }
 
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
 .logo {
   height: 5.2rem;
-  align-self: center;
-  margin-bottom: 4rem;
 }
 
 .workouts {
@@ -69,10 +72,10 @@ a:visited {
 .workout {
   background-color: var(--color-dark--2);
   border-radius: 5px;
-  padding: 1.5rem 2.25rem;
+  padding: 2% 4%;
   margin-bottom: 1.75rem;
   cursor: pointer;
-
+  overflow: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 0.75rem 1.5rem;
@@ -199,4 +202,29 @@ a:visited {
 }
 .cycling-popup .leaflet-popup-content-wrapper {
   border-left: 5px solid var(--color-brand--1);
+}
+
+/* TABLET/MOBILE */
+@media screen and (max-width: 1024px) {
+  .sidebar {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 701px) {
+  .sidebar {
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    flex-direction: column;
+  }
+  .sidebar {
+    max-height: 50%;
+  }
+  .workouts {
+    height: 100%;
+  }
 }
